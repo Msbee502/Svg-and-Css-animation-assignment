@@ -1,0 +1,9 @@
+ <svg width="260" height="260" fill="black" xmlns="http://www.w3.org/2000/svg"> 
+        <symbol id="circle" viewbox="0 0 260 260">
+        <circle cx="110" cy="110" r="100" fill="black" />
+        <line x1="110" y1="110" x2="110" y2="50" stroke="white" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="60" y1="110" x2="110" y2="110" stroke="white" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>
+    </svg>
+
+        
