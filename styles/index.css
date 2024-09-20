@@ -2,11 +2,18 @@
     width: 300px; 
     height: 300px;
 }
-svg {
-    animation-name: triangle;
-    animation: rotation 6s infinite linear
-}
+.triangle {animation: imgZoom 4.5s ease infinite;
+  animation-direction:reverse;
 
+ }
+
+ @keyframes imgZoom {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(360deg);}
+    100% {transform: rotate(-360deg);}
+ }
+
+/* Detta funkar på samma sätt
 @keyframes triangle {
     from {
         transform: rotate(0deg);
@@ -14,4 +21,4 @@ svg {
       to {
         transform: rotate(360deg);
       }
-}
+}*/
